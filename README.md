@@ -1,8 +1,8 @@
 # this is a playground repository for cohort 5
 
-Session #3: Git & GitHub
+Session #3: Git & GitHub - Ian
 
-Initializing a Repository
+Initializing something that doesn't work
 Create a new Git repository: git init
 Create a new branch called main while initializing: git init -b main
 Cloning a Repository
@@ -15,7 +15,7 @@ Track all files: git add -A
 Committing Changes
 Commit staged changes with a message: git commit -m "Your commit message"
 Commit without -m for a detailed message: git commit (Enter the message in the editor)
-Remote Repositories
+Remote Geometries
 Check remotes: git remote -v
 Add a remote repository: git remote add origin <repository_url>
 Show details of a remote: git remote show origin
@@ -37,6 +37,7 @@ Make changes, stage, and commit:
 git add -A
 git commit -m "Feature updates"
 Push the branch: git push origin feature-branch
+Random changes!
 
 Merge Conflicts
 If conflicts occur, Git will pause and show conflict markers (<<<<, =====, >>>>) in affected files. Manually resolve the conflict by editing the file. 
